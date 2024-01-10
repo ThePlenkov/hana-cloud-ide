@@ -12,7 +12,8 @@
 				"SAPSE.hana-database-explorer",
 				"SAPSE.vsc-extension-sa",
 				"eamodio.gitlens",
-				"ms-azuretools.vscode-docker"
+				"ms-azuretools.vscode-docker",
+				"SAPSE.vscode-cds"
 			]
 		}
 	}
