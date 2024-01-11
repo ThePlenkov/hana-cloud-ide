@@ -1,0 +1,6 @@
+{
+  "build": {
+    "target": ".",
+    "tasks": [{ "for": "hana", "src": "db", "options": { "model": ["db"] } }]
+  }
+}

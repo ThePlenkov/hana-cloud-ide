@@ -15,7 +15,8 @@
 				"ms-azuretools.vscode-docker",
 				"SAPSE.vscode-cds",
 				"ms-vsliveshare.vsliveshare",
-				"nrwl.angular-console"
+				"nrwl.angular-console",
+				"esbenp.prettier-vscode"
 			]
 		}
 	}

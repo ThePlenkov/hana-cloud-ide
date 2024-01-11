@@ -1,8 +1,19 @@
 {
+  "name": "hana-cloud-sflight",
   "devDependencies": {
+    "@cap-js/cds-typer": "^0.15.0",
+    "@cap-js/hana": "^0.0.3",
+    "@sap/cds-dk": "^7.5.1",
     "nx": "^17.2.8"
   },
-  "workspaces" :[
-    "git_modules/*"
-  ]
+  "workspaces": [
+    "git_modules/cap-sflight",
+    "git_modules/cap-sflight/db"
+  ],
+  "scripts": {
+    "env": "env",
+    "build":"cds build"
+  },
+  "nx": {},
+  "cds": {}
 }
