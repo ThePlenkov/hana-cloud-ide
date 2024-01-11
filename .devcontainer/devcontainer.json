@@ -13,7 +13,8 @@
 				"SAPSE.vsc-extension-sa",
 				"eamodio.gitlens",
 				"ms-azuretools.vscode-docker",
-				"SAPSE.vscode-cds"
+				"SAPSE.vscode-cds",
+				"ms-vsliveshare.vsliveshare"
 			]
 		}
 	}
