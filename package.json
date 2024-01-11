@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "nx": "^17.2.8"
+  },
+  "workspaces" :[
+    "git_modules/*"
+  ]
+}
