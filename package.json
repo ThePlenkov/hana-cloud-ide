@@ -11,7 +11,7 @@
     "git_modules/cap-sflight/db"
   ],
   "scripts": {    
-    "init":"git pull --recurse-submodules && npm i",
+    "init":"git submodule init && git pull --recurse-submodules && npm i",
     "build":"cds build",
     "deploy":"cds deploy --to hana"
   },
