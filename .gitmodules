@@ -1,0 +1,3 @@
+[submodule "git_modules/cap-sflight"]
+	path = git_modules/cap-sflight
+	url = https://github.com/SAP-samples/cap-sflight.git
