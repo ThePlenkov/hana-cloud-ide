@@ -10,9 +10,9 @@
     "git_modules/cap-sflight",
     "git_modules/cap-sflight/db"
   ],
-  "scripts": {
-    "env": "env",
-    "build":"cds build"
+  "scripts": {    
+    "build":"cds build",
+    "deploy":"cds deploy --to hana"
   },
   "nx": {},
   "cds": {}
