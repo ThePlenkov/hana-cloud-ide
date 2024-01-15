@@ -6,6 +6,12 @@
         "^build"
       ]
     },
+    "start-hana": {
+      "cache": true,
+      "dependsOn": [
+        "login"
+      ]
+    },
     "lint": {
       "cache": true
     },
@@ -20,4 +26,3 @@
     "version": "17.2.8"
   }
 }
-

@@ -14,7 +14,9 @@
     "init": "git submodule init && git pull --recurse-submodules && npm i",
     "build": "cds build",
     "deploy": "cds deploy --to hana",
-    "start": "cd scripts && make start_hana",
+    "start-hana": "cd scripts && make start_hana",
+    "stop-hana": "cd scripts && make stop_hana",
+    "start": "nx run start-hana",
     "login": "make login",
     "logout": "cf logout"
   },
