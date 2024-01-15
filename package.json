@@ -10,10 +10,13 @@
     "git_modules/cap-sflight",
     "git_modules/cap-sflight/db"
   ],
-  "scripts": {    
-    "init":"git submodule init && git pull --recurse-submodules && npm i",
-    "build":"cds build",
-    "deploy":"cds deploy --to hana"
+  "scripts": {
+    "init": "git submodule init && git pull --recurse-submodules && npm i",
+    "build": "cds build",
+    "deploy": "cds deploy --to hana",
+    "start": "cd scripts && make start_hana",
+    "login": "make login",
+    "logout": "cf logout"
   },
   "nx": {},
   "cds": {}
