@@ -18,7 +18,8 @@
     "stop-hana": "cd scripts && make stop_hana",
     "start": "nx run start-hana",
     "login": "make login",
-    "logout": "cf logout"
+    "logout": "cf logout",
+    "env":"cf service-key $SK $SK-key | sed -n '2,$p' | jq .credentials"
   },
   "nx": {},
   "cds": {}
