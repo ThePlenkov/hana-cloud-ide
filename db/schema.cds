@@ -1,1 +1,1 @@
-using from '@capire/sflight/db/schema';
+using from '../git_modules/cap-sflight/db/schema';
