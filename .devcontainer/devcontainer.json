@@ -16,7 +16,8 @@
 				"SAPSE.vscode-cds",
 				"ms-vsliveshare.vsliveshare",
 				"nrwl.angular-console",
-				"esbenp.prettier-vscode"
+				"esbenp.prettier-vscode",
+				"ms-vscode.makefile-tools"
 			]
 		}
 	},
