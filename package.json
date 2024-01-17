@@ -13,14 +13,21 @@
   "scripts": {
     "init": "git submodule init && git pull --recurse-submodules && npm i",
     "build": "cds build",
-    "deploy": "cds deploy --to hana",
+    "deploy": "cds deploy --to hana --auto-undeploy",
     "start-hana": "cd scripts && make start_hana",
     "stop-hana": "cd scripts && make stop_hana",
     "start": "nx run start-hana",
     "login": "make login",
     "logout": "cf logout",
-    "env":"cf service-key $SK $SK-key | sed -n '2,$p' | jq .credentials"
+    "env": "cf service-key $SK $SK-key | sed -n '2,$p' | jq .credentials"
   },
   "nx": {},
-  "cds": {}
+  "cds": {
+    "requires": {
+      "db": "hana"
+    }
+  },
+  "dependencies": {
+    "@sap/cds-hana": "^2"
+  }
 }

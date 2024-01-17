@@ -8,11 +8,11 @@ update-service:
 
 start_hana:
 	# Add commands to start HANA here
-	echo "Starting HANA..."
+	@echo "Starting HANA..."
 	$(MAKE) update-service SERVICE_INSTANCE=$(HANA_SERVICE_INSTANCE) PARAMETERS_FILE=$(START_SERVICE_FILE)
 
 stop_hana:
 	# Add commands to stop HANA here
-	echo "Stopping HANA..."
+	@echo "Stopping HANA..."
 	$(MAKE) update-service SERVICE_INSTANCE=$(HANA_SERVICE_INSTANCE) PARAMETERS_FILE=$(STOP_SERVICE_FILE)
 
